@@ -134,3 +134,6 @@ OtherList (use domain name)
 * Expose API via service module (`fetch`, async callback, etc.) **3pts**
 * Display Results **4pts**
 * Implement Search **3pts**
+
+key: lZDlxcahtavzyMLWZO3axg
+secret: 2GwDKQEzbXtylY1NFDJeoMao72X48rX83j1U8r8JUQ
