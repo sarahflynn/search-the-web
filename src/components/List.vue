@@ -3,7 +3,7 @@
         <h2>Search Book Title To Find Author(s)</h2>
         <Search :onSearch="handleSearch"/>
         <Book v-for="book in books"
-          :key="book.title"
+          :key="book.industryIdentifiers[0].identifier"
           :book="book"/>
     </div>
 </template>
