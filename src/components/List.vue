@@ -33,18 +33,6 @@ export default {
     searchData() {
       api.getData(this.search)
         .then(response => {
-          // let authors = [];
-          // let titles = [];
-          // for(let i = 0; i < 10; i++) {
-          //   let bookAuthors = response.items[i].volumeInfo.authors.join(', ');
-          //   authors.push(bookAuthors);
-          // }
-          // this.authors = authors;
-          // for(let i = 0; i < 10; i++) {
-          //   let title = response.items[i].volumeInfo.title;
-          //   titles.push(title);
-          // }
-          // this.titles = titles;
           this.books = response.items.map(book => book.volumeInfo);
         });
     }
